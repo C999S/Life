@@ -18,7 +18,7 @@ try:
 	
 	import webbrowser
 except ModuleNotFoundError:
-	os.system('pip install python-cfonts')
+	os.system('pip install python')
 	os.system('pip install say')
 	os.system('pip install requests')
 	os.system('pip install mechanize')
